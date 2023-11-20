@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <img src="{{ url_for('static', filename='post-4-mid-square.jpg')}}">
+
+    {%for user in users %}
+      <li><a href="{{user.url}}">{{ user class="username }}</a></li>
+    {% endfor %} 
+
+<h1>{{AD}}</h1>
+    
+<p> In this paragraph i will show you the image in our python url</p>
+
+
+<p> I hope you understand Mr. ADARSH</p>
+
+</body>
+</html>

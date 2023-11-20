@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link href="{{ url_for('static',filename='css/stl.css')}}" rel="stylesheet" />
+</head>
+<body  style="background-image: url('  {{ url_for('static',filename='assets/img/wp3076359.jpeg')}} ')">
+    <div class="first"  >
+        <h1>Admin Login</h1>
+        <form action="/dashboard" method="post">
+            Name/Mobile no.<br>
+            <input type="number" class="input-box" placeholder="your Mobile_no" name="Mobile_no" required="+"><br>
+            Password<br>
+            <input type="password" class="input-box" placeholder="password" name="password" required>
+            <p><span><input type="checkbox" required></span> I agree to the terms and services</p>
+            <button type="submit" class="sign-btn">Log in</button>
+            <hr>
+            <p class="mt-5 mb-3 text-muted">&copy; {{params['blogname']}}2023-2024</p>
+        </form>
+    </div>
+</body>
+</html>
+
+

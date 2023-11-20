@@ -1,0 +1,23 @@
+{
+
+    "params":{
+        "local_server":"True",
+        "local_uri":"mysql://root:Adarsh#1234@localhost/blog",
+        "prod_uri":"mysql://root:Adarsh#1234@localhost/blog",
+        "fb_url":"https://www.facebook.com/profile.php?id=100095057203958",
+        "tw_url":"https://twitter.com/Adarsh_Upadh11",
+        "gw_url":"https://www.github.com/adarsh",
+        "blogname":"Ariana Zone",
+        "tagline":"Battle can give you winner",
+        "gmail-user":"adarak291@gmail.com",
+        "Piss":"bprf xkft rtqn kyaz",
+        "about_cont":"Hi my name is Adarsh and I am here to learn coding with flask tutorial and not learn Django that's I am great",
+        "no_of_post":2,
+        "Mobile_no":"917388641043",
+        "password":"Adarsh#1234",
+        "upload_location":"C:\\Users\\Acer\\Desktop\\flask sql\\static\\assets\\img"
+        
+    }
+
+
+}
